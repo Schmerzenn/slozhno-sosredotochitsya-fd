@@ -235,13 +235,13 @@
     row-gap: 80px;
   }
 
-  .topic {
-    grid-template-columns: 1fr 2fr;
-  }
-
   .topic__title {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
+  }
+
+  .topic {
+    grid-template-columns: 1fr 2fr;
   }
 
   .topic__card {
