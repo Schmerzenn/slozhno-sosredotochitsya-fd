@@ -1,6 +1,7 @@
 .page {
   font-family: var(--font-family);
   background-color: var(--background-color);
+  background-attachment: fixed
 }
 
 .decorated-zone::before {
@@ -70,7 +71,7 @@
   display: grid;
   grid-template-columns: repeat(2, auto);
   gap: 10px;
-  block-size: 25px; 
+  block-size: 25px;
   color: var(--accent-color);
   font-size: var(--regular-font-size);
   text-transform: uppercase;
