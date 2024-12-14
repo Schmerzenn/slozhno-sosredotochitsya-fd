@@ -264,6 +264,10 @@
     grid-row: 1 / 3;
   }
 
+  .special-title {
+    grid-column: 2 / 3;
+  }
+
   .topic {
     grid-template-columns: 1fr 2fr;
   }
