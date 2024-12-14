@@ -5,9 +5,9 @@
   --text-color: #f1b2ce;
   --decoration-color: var(--accent-color);
   --background-color: #000028;
-  --header1-color: #db00ff;
-  --header2-color: var(--accent-color);
-  --header3-color: var(--background-color);
+  --main-header-color: #db00ff;
+  --sub-header-color: var(--accent-color);
+  --section-header-color: var(--background-color);
   --font-family: 'IBM Plex mono', monospace;
   --regular-font-size: 18px;
   --small-line-height: 83%;
