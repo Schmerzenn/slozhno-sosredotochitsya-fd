@@ -8,7 +8,7 @@
   --main-header-color: #db00ff;
   --sub-header-color: var(--accent-color);
   --section-header-color: var(--background-color);
-  --font-family: 'IBM Plex mono', monospace;
+  --font-family: "IBM Plex mono", monospace;
   --regular-font-size: 18px;
   --small-line-height: 83%;
   --regular-line-height: 100%;

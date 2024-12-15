@@ -7,6 +7,6 @@
   --background-color: #000028;
   --main-header-color: #db00ff;
   --sub-header-color: var(--accent-color);
-  --section-header-color: var(--background-color);  
+  --section-header-color: var(--background-color);
   --is-light: visible;
 }
