@@ -340,16 +340,24 @@
   }
 
   .topic.special {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto);
+    grid-auto-rows: auto;
+    gap: 20px;
+  }
+
+  .topic.special::before {
+    content: "";
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
   }
 
   .topic.special .topic__title {
-    grid-row: span 1;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
   }
 
   .topic.special .topic__card {
-    grid-row: 2 / 3;
     grid-column: span 1;
   }
 
